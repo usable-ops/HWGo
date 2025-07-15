@@ -21,6 +21,6 @@ func main() {
 	nums2 := []int{1, 1, 1, 1}
 	fmt.Println(numIdenticalPairs(nums2))
 
-	nums3 := []int{1, 2, 3}
+	nums3 := []int{1, 2, 3, 1}
 	fmt.Println(numIdenticalPairs(nums3))
 }
