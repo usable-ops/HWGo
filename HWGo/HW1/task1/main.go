@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	slice := []int{1, 2, 3}
+	slice := []int{1, 2, 3, 5}
 	sLength, n := len(slice), len(slice)
 	newSize := 2 * sLength
 	newSlice := make([]int, newSize)
